@@ -1,0 +1,5 @@
+project: pip
+target: fuzz_requirements
+cmds:
+  - cmd: /mayhem/fuzz_requirements
+    libfuzzer: true
